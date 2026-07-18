@@ -1,40 +1,30 @@
 {
-  "id": "com.vynxshadowlands.myaddon",
-  "version": "3.0.0",
-  "name": "Vynx Mega-Provider",
-  "description": "Extractor universal que obtiene transmisiones de múltiples fuentes incluyendo Shadowlands, Flixer, HiAnime, DLHD y más.",
-  "logo": "https://vynx.cc",
-  "background": "https://images.unsplash.com/photo-1570284613060-766c33850e00?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-  "resources": [
-    "stream",
-    "catalog"
-  ],
-  "types": [
-    "movie",
-    "series",
-    "tv",
-    "anime"
-  ],
-  "idPrefixes": [
-    "tt",
-    "vynx_live_"
-  ],
-  "catalogs": [
+  "name": "IsaiahGuh's Repo",
+  "version": "3.1.0",
+  "scrapers": [
     {
-      "type": "tv",
-      "id": "vynx_live_tv",
-      "name": "Vynx TV en Vivo"
+      "id": "vynx-universal",
+      "name": "Vynx Mega-Provider",
+      "description": "Acceso total a Shadowlands Chain, Flixer, HiAnime y TV en Vivo",
+      "version": "3.1.0",
+      "author": "IsaiahGuh",
+      "supportedTypes": [
+        "movie",
+        "tv",
+        "anime",
+        "live"
+      ],
+      "filename": "vynx-addon.js",
+      "enabled": true,
+      "formats": [
+        "m3u8",
+        "mp4"
+      ],
+      "logo": "https://vynx.cc",
+      "contentLanguage": [
+        "en",
+        "es"
+      ]
     }
-  ],
-  "behaviorHints": {
-    "configurable": false,
-    "configurationRequired": false
-  },
-  "stremioAddonsConfig": {
-    "issuer": "https://stremio-addons.net",
-    "signature": "eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2In0..pmX6-Us-_CaFGZCKNO38jQ.wTEgzMJqpu2e3qWqu6owfUHpEkc0lhIFMVoD8kRD8CH5T5SPU-_T4H4KsWFFTbjjkJ6EqMPxVgOm5P5rzaAo5J6Pn1G39uqjq9tBldlPB35twNcZo0Kd4N5CRS56dvX1.C3YXad-rIEz7ZvMW9PZPnQ"
-  },
-  "manifests": [
-    "https://githubusercontent.com"
   ]
 }
