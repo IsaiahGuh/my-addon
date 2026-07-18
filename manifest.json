@@ -1,18 +1,16 @@
 {
-  "name": "IsaiahGuh's Repo",
-  "version": "3.1.0",
+  "name": "IsaiahGuh's Vynx Repo",
+  "version": "3.2.0",
   "scrapers": [
     {
-      "id": "vynx-universal",
+      "id": "vynx-universal-scraper",
       "name": "Vynx Mega-Provider",
-      "description": "Acceso total a Shadowlands Chain, Flixer, HiAnime y TV en Vivo",
-      "version": "3.1.0",
+      "description": "Extractor nativo de transmisiones multimedia en alta definición (Shadowlands, Flixer y HiAnime).",
+      "version": "3.2.0",
       "author": "IsaiahGuh",
       "supportedTypes": [
         "movie",
-        "tv",
-        "anime",
-        "live"
+        "tv"
       ],
       "filename": "vynx-addon.js",
       "enabled": true,
