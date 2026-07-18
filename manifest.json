@@ -2,7 +2,7 @@
   "id": "vynx-universal-provider",
   "name": "Vynx Mega-Provider",
   "description": "Extractor nativo de transmisiones multimedia en alta definición (Shadowlands, Flixer y HiAnime).",
-  "version": "3.4.0",
+  "version": "3.5.0",
   "author": "IsaiahGuh",
   "supportedTypes": [
     "movie",
