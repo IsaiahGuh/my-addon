@@ -1,24 +1,22 @@
-[
-  {
-    "id": "vynx-universal-provider",
-    "name": "Vynx Mega-Provider",
-    "description": "Extractor nativo de transmisiones multimedia en alta definición (Shadowlands, Flixer y HiAnime).",
-    "version": "3.3.0",
-    "author": "IsaiahGuh",
-    "supportedTypes": [
-      "movie",
-      "tv"
-    ],
-    "filename": "https://githubusercontent.com",
-    "enabled": true,
-    "formats": [
-      "m3u8",
-      "mp4"
-    ],
-    "logo": "https://vynx.cc",
-    "contentLanguage": [
-      "en",
-      "es"
-    ]
-  }
-]
+{
+  "id": "vynx-universal-provider",
+  "name": "Vynx Mega-Provider",
+  "description": "Extractor nativo de transmisiones multimedia en alta definición (Shadowlands, Flixer y HiAnime).",
+  "version": "3.4.0",
+  "author": "IsaiahGuh",
+  "supportedTypes": [
+    "movie",
+    "tv"
+  ],
+  "filename": "https://githubusercontent.com",
+  "enabled": true,
+  "formats": [
+    "m3u8",
+    "mp4"
+  ],
+  "logo": "https://vynx.cc",
+  "contentLanguage": [
+    "en",
+    "es"
+  ]
+}
