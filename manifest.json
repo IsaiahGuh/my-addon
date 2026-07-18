@@ -1,22 +1,30 @@
 {
-  "id": "org.isaiahguh.vynxmega",
+  "name": "IsaiahGuh's Repo",
   "version": "3.0.0",
-  "name": "Vynx Mega-Provider (Shadowlands)",
-  "description": "Acceso total a Shadowlands Chain, Flixer, HiAnime y Canales de TV en Vivo",
-  "resources": [
-    "stream",
-    "catalog"
-  ],
-  "types": [
-    "movie",
-    "series",
-    "anime",
-    "tv"
-  ],
-  "catalogs": [],
-  "background": "https://vynx.cc",
-  "logo": "https://vynx.cc",
-  "manifests": [
-    "https://githubusercontent.com"
+  "scrapers": [
+    {
+      "id": "vynx-universal",
+      "name": "Vynx Mega-Provider",
+      "description": "Acceso total a Shadowlands Chain (VidSrc.xyz), Flixer, HiAnime y TV en Vivo (DLHD)",
+      "version": "3.0.0",
+      "author": "IsaiahGuh",
+      "supportedTypes": [
+        "movie",
+        "tv",
+        "anime",
+        "live"
+      ],
+      "filename": "vynx-addon.js",
+      "enabled": true,
+      "formats": [
+        "m3u8",
+        "mp4"
+      ],
+      "logo": "https://vynx.cc",
+      "contentLanguage": [
+        "en",
+        "es"
+      ]
+    }
   ]
 }
