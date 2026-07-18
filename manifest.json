@@ -1,0 +1,9 @@
+{
+  "name": "Vynx Multi-Provider Repositorio",
+  "id": "vynx-addon-repo",
+  "version": "3.0.0",
+  "description": "Conexión directa a la infraestructura distribuidora de Vynx TV",
+  "manifests": [
+    "https://githubusercontent.com"
+  ]
+}
